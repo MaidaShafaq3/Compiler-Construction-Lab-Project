@@ -1,0 +1,5 @@
+SELECT * FROM Customers;
+SELECT CustomerName,City FROM Customers;
+SELECT * FROM Customers WHERE Country='Mexico';
+SELECT * FROM Customers WHERE Country='Germany' AND City='Berlin';
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country) VALUES ('Cardinal','Tom B. Erichsen','Skagen 21','Stavanger','4006','Norway');
